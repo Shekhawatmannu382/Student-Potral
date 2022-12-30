@@ -1,0 +1,86 @@
+body{
+
+    background-color: #D9D9D9;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1E1E1E;;
+}
+.box{
+    margin-top: 6rem;
+    margin-left: 10rem;
+    width: 1570px;
+    border: 2px solid black;
+}
+
+#first{
+    margin-top: 3rem;
+     background: #000000;
+     width: 1570px;
+     height: 66px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+#first h1{
+    padding: 15px;
+    font-family: initial;
+}
+#second{
+    display: flex;
+    margin-left: 20px;
+}
+#second input{
+    margin-right: 20px;
+    width:1276px;
+    height:55px;
+    font-size: 20px;
+}
+::placeholder{
+    color:black;
+    padding: 10px;
+}
+#second button{
+    background-color: #000000;
+    color:#D9D9D9;
+    padding: 10px;
+    font-size: 24px;
+    width:200px;
+    height: 58px;
+    margin-right: 20px;
+
+}
+.flex-container {
+    display: flex;
+    margin-left: 37px;
+    justify-content: space-evenly;
+  }
+.flex-container > div >button{
+    background-color: #000000;
+    font-size: 24px;
+    color:#D9D9D9;
+    width: 200px;
+    height:59px;
+    margin-right: 27px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 1497px;
+    height: 40vh;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+  }
+
+  td, th {
+    border: 2px solid #040404;
+    text-align: left;
+    font-size: 24px;
+    padding: 20px;
+    height: 35px;
+    color: #D9D9D9;
+  }
